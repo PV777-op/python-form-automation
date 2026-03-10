@@ -1,0 +1,38 @@
+import pyautogui
+import time
+pyautogui.PAUSE = 1.5
+nome = 'Paulo Vitor'
+sobrenome = 'Malta'
+
+pyautogui.press('win')
+pyautogui.write('chrome')
+pyautogui.press('enter')
+pyautogui.click(x=650, y=448)
+pyautogui.write('https://www.jotform.com/pt/form-templates/formulario-de-teste')
+pyautogui.press('enter')
+time.sleep(5)
+pyautogui.click(x=302, y=472)
+pyautogui.write(nome)
+pyautogui.click(x=399, y=467)
+pyautogui.press('tab')
+pyautogui.write(sobrenome)
+pyautogui.press('tab')
+pyautogui.write('E-mail')
+pyautogui.press('tab')
+pyautogui.write('endereco')
+pyautogui.press('tab')
+pyautogui.write('complemento de endereco')
+pyautogui.press('tab')
+pyautogui.write('cidade')
+pyautogui.press('tab')
+pyautogui.write('estado')
+pyautogui.press('tab')
+pyautogui.write('CEP')
+pyautogui.press('tab')
+pyautogui.write('Telefone')
+pyautogui.press('tab')
+pyautogui.write('data de nascimento')
+pyautogui.press('tab')
+pyautogui.press('tab')
+pyautogui.click(x=242, y=259)
+pyautogui.press('enter')
